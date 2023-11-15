@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centralizador de Enlaces - Streamer Page</title>
+    <link rel="stylesheet" href="/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit&display=swap" rel="stylesheet">
+    <link rel="icon" href="/img/Escudo_platense.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/Escudo_platense.png" type="image/x-icon">
+    <script src="https://player.twitch.tv/js/embed/v1.js"></script>
+
+</head>
+<body>
+
+    <header>
+        <h1>Stanka</h1>
+    </header>
+
+    <main>
+        <div class="card rotate-on-hover">
+            <img src="/img/perfil_straka.jpeg" alt="Imagen del Streamer">
+            <p>Viejo y ex cs player "profesional" argentino. Hincha del Club Atlético Tigre. Alergico al trabajo y a copas internacionales. Adicto al dinero y al Jäger. Gitano por elección. Solo lee el chat si le donan bits o se suscriben. Fanatico de Gabriel Arias</p>
+        </div>
+
+        <div class="card schedule">
+            <h2>Links de interes</h2>
+
+            <a href="https://4vxclothing.com/" 
+            target="_blank"><b>4vX</b> Clothing</a>
+
+            <a href="https://www.instagram.com/loslobosfc1/" 
+            target="_blank">Club <b>"Los Lobos"</b></a>
+
+            <a href="https://www.faceit.com/en/inv/45FtoAI" 
+            target="_blank"><b>Clan Straka</b> en Faceit</a>
+            
+            <a href="https://cs.fail/es/" 
+            target="_blank">CsFail. Bonus 25% code: <b>STRAKATV</b></a>
+
+            <a href="https://twitchtracker.com/strakatv" 
+            target="_blank"><b>Stats</b> de TwitchTracker</a>
+
+        </div>
+        <div class="card twitch-status" data-channel="strakatv">
+            
+            <div id="twitch-player"></div>
+
+            <script type="text/javascript">
+              var options = {
+                width: 720,  // ajusta según tus preferencias
+                height: 500,  // ajusta según tus preferencias
+                channel: "strakatv",  // reemplaza con el nombre de tu canal
+                parent: ["streamernews.example.com"]  // reemplaza con tu dominio
+              };
+            
+              var player = new Twitch.Player("twitch-player", options);
+              player.setVolume(0.5);
+            </script>
+            
+        </div>
+        <div class="card social-icons">
+
+            <a href="https://www.twitch.tv/strakatv" target="_blank">
+            <img src="/img/twitch.png" alt="Logo twitch"></a>
+
+            <a href="https://twitter.com/strakacsgo?lang=es" target="_blank">
+            <img src="/img/x.png" alt="Logo x"></a>
+
+            <a href="https://www.instagram.com/nahueevazquez/" target="_blank">
+            <img src="/img/instagram.png" alt="Logo instagram"></a>
+
+            <a href="https://www.tiktok.com/@strakaa" target="_blank">
+            <img src="/img/tiktok.png" alt="Logo tiktok"></a>
+            
+            <a href="https://www.youtube.com/@Strakatv" target="_blank">
+            <img src="/img/youtube.png" alt="Logo youtube"></a>
+
+            <a href="https://liquipedia.net/counterstrike/Straka" target="_blank">
+            <img src="/img/liquipedia.png" alt="Logo liquipedia"></a>
+
+            <a href="https://steamcommunity.com/id/straka/" target="_blank">
+            <img src="/img/steam.png" alt="Logo steam"></a>
+
+            <a href="https://play.esea.net/users/747433" target="_blank">
+            <img src="/img/esea.png" alt="Logo esea"></a>
+
+            <a href="https://gamersclub.com.br/player/19802" target="_blank">
+            <img src="/img/gamersclub.png" alt="Logo gamersclub"></a>
+
+            <a href="https://www.faceit.com/en/players/Strakaa" target="_blank">
+            <img src="/img/faceit.png" alt="Logo faceit"></a>
+
+        </div>
+
+
+    </main>
+
+    <footer>
+        &copy; 2023 Viejo putitroli.
+    </footer>
+
+    <script type="text/javascript" src=""></script>
+</body>
+</html>

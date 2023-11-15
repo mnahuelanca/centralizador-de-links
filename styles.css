@@ -1,0 +1,113 @@
+body {
+    font-family: 'kanit', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #424248;
+    color: #ecf0f1;
+    overflow-x: hidden;
+
+}
+
+header {
+    background-color:;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #34495e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.card {
+    flex: 1 1 calc(33.333% - 30px);
+    background-color: #2c3e50;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    max-width: 100%;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+.card.schedule a {
+    border-bottom: 1px solid #ecf0f1; /* Color de la línea separadora */
+    padding-bottom: 10px; /* Espacio entre el texto y la línea */
+    margin-bottom: 10px; /* Espacio entre las líneas */
+}
+
+
+.card.rotate-on-hover:hover img {
+    transition: transform 0.3s ease-in-out;
+    transform: scale(1.030);
+}
+.social-icons {
+    flex: 1 1 100%;
+    background-color: #2c3e50;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-icons img {
+    max-width: 40px;
+    margin-right: 10px;
+    transition: transform 0.3s ease-in-out; /* Agrega una transición suave */
+}
+
+.social-icons img:hover {
+    transform: scale(1.2); /* Hace un zoom del 20% cuando el ratón está sobre la imagen */
+}
+
+.social-icons a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.schedule a {
+    display: block;
+    margin-bottom: 10px;
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: larger;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #2980b9;
+    color: #fff;
+    width: 100%;
+}
+.twitch-status {
+    flex: 1 1 100%;
+    background-color: #2c3e50;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    color: #ecf0f1;
+}
