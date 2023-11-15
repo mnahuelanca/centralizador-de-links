@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    background-color:;
+    /*background-color:*/
     color: #fff;
     text-align: center;
     padding: 0.5em;
@@ -40,7 +40,7 @@ main {
 }
 
 .card img {
-    max-width: 100%;
+    max-width: 50%;
     border-radius: 7px;
     display: block;
     margin: 0 auto;
@@ -50,6 +50,12 @@ main {
     border-bottom: 1px solid #ecf0f1; /* Color de la línea separadora */
     padding-bottom: 10px; /* Espacio entre el texto y la línea */
     margin-bottom: 10px; /* Espacio entre las líneas */
+}
+
+.card.schedule a:hover {
+    background-color: #fff3;
+    transform: scale(1.2);
+    transition: transform 0.3s ease-in-out;
 }
 
 
